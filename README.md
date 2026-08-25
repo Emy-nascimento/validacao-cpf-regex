@@ -7,7 +7,7 @@ Este projeto apresenta a construção, explicação lógica e testes práticos d
 ## 💻 Tecnologias e Ferramentas Utilizadas
 - **Expressões Regulares (Regex)**
 - **Windows PowerShell** (Operador `-match`)
-- **Git & GitHub**
+  
 
 ---
 
