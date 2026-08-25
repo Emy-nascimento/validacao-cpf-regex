@@ -1,0 +1,51 @@
+Nome completo: Emilly Nascimento Amorim
+
+Curso: Segurança da Informação
+
+Disciplina: Programação aplicada a Redes de computadores
+
+Link do vídeo: https://youtu.be/d9785gEtjzY
+
+----------------------------------------------------------------------
+
+ATIVIDADE ATIVA - ELABORAÇÃO E APRESENTAÇÃO DA EXPRESSÃO REGULAR 
+
+
+
+Alternativa Escolhida: 
+
+g. CPF — no formato NNN.NNN.NNN-NN
+
+
+
+Expressão Regular Utilizada:
+
+^(\d{3}\.){2}\d{3}-\d{2}$
+
+
+
+Significado de cada parte da Expressão Regular:
+
+• ^         : Âncora de início de linha (garante que a validação comece no primeiro caractere).
+
+• ( ... ){2}: Grupo de captura com multiplicador. Repete exatamente 2 vezes o padrão definido dentro dos parênteses.
+
+• \d{3}     : Exige 3 dígitos numéricos (0-9).
+
+• \.        : Caractere de escape para validar o ponto final de forma literal.
+
+• \d{3}     : Exige o terceiro bloco com 3 dígitos numéricos.
+
+• -         : O hífen literal.
+
+• \d{2}     : Exige exatamente 2 dígitos numéricos no final.
+
+• $         : Âncora de fim de linha (impede a inserção de caracteres extras ao final).
+
+Para executar essa validação no Windows, utilizo o operador -match do PowerShell. A função dele é pegar a string do CPF que está à esquerda e testar se ela atende exatamente às regras da Regex que defini à direita.
+
+
+
+Comando utilizado para realizar a validação (PowerShell / Windows):
+
+"123.456.789-10" -match "^(\d{3}\.){2}\d{3}-\d{2}$"
