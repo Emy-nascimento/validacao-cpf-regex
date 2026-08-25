@@ -1,4 +1,4 @@
-# 🔍 Validação de Formato de CPF com Regex e PowerShell
+#  Validação de Formato de CPF com Regex e PowerShell
 
 Este projeto apresenta a construção, explicação lógica e testes práticos de uma Expressão Regular (Regex) desenvolvida para validação do formato de CPF (`NNN.NNN.NNN-NN`).
 
