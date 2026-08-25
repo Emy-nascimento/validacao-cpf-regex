@@ -16,33 +16,7 @@ Este projeto apresenta a construção, explicação lógica e testes práticos d
 
 ---
 
-##  Expressão Regular Desenvolvida
+## ⚙️ Expressão Regular Desenvolvida
+
 ```regex
 ^(\d{3}\.){2}\d{3}-\d{2}$
-
-
-Detalhamento da Sintaxe:
-
-^ : Âncora de início de linha.
-(\d{3}\.){2} : Agrupamento de 3 dígitos numéricos seguidos de ponto literal, repetido exatamente 2 vezes.
-\d{3} : Terceiro bloco com 3 dígitos numéricos.
-- : Hífen literal.
-\d{2} : Bloco final com os 2 dígitos verificadores.
-$ : Âncora de fim de linha.
-
-
-🧪  (PowerShell) Para executar o teste de validação no terminal Windows PowerShell:
-
-PowerShell
-"110.123.650-10" -match "^(\d{3}\.){2}\d{3}-\d{2}$"
-Resultados dos Testes Práticos:
-Entradas no formato NNN.NNN.NNN-NN retornam True.
-Entradas sem pontos, sem hífen ou com caracteres extras retornam False.
-
-🎥 Demonstração em Vídeo
-Confira a apresentação do código e a demonstração prática dos testes no terminal:
-👉  https://youtu.be/d9785gEtjzY?si=FTHpaKvqc6L0_IJA
-
-
-
-
