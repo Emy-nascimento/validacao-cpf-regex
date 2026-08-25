@@ -1,6 +1,8 @@
 #  Validação de Formato de CPF com Regex e PowerShell
 
 Este projeto apresenta a construção, explicação lógica e testes práticos de uma Expressão Regular (Regex) desenvolvida para validação do formato de CPF (`NNN.NNN.NNN-NN`).
+
+
 ![Demonstração no PowerShell](./Captura%20de%20tela%202026-08-23%20211440.png)
 
 ---
@@ -42,8 +44,7 @@ Entradas sem pontos, sem hífen ou com caracteres extras retornam False.
 
 🎥 Demonstração em Vídeo
 Confira a explicação detalhada do código e a demonstração prática dos testes no terminal:
-👉 Assistir à apresentação em vídeo
-## https://youtu.be/d9785gEtjzY?si=FTHpaKvqc6L0_IJA
+👉 Assistir à apresentação em vídeo: https://youtu.be/d9785gEtjzY?si=FTHpaKvqc6L0_IJA
 
 
 
